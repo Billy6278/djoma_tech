@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "djomatech",
+    "password": "Djomatech777",
+    "database": "djomatech",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "djomatech",
+    "password": "Djomatech777",
+    "database": "djomatech_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "djomatech",
+    "password": "Djomatech777",
+    "database": "djomatech_prod",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

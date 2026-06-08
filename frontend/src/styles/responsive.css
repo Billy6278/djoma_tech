@@ -1,0 +1,379 @@
+/* ==========================================
+   DJOMA TECH — Mobile First Responsive System
+   Breakpoints: 480 | 768 | 1024 | 1200 | 1440
+   ========================================== */
+
+/* --- Base (320px+) : single column layouts --- */
+.service-grid,
+.stats-grid,
+.values-grid,
+.objectif-container,
+.realisations-container,
+.founder-container,
+.testimonials-grid,
+.contact-form-container,
+.contact-cards-container,
+.footer-grid {
+  width: 100%;
+}
+
+.service-grid {
+  grid-template-columns: 1fr;
+  gap: 1.75rem;
+}
+
+.stats-grid {
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  padding: 1.5rem clamp(1rem, 4vw, 2rem);
+}
+
+.stats-card::after {
+  display: none;
+}
+
+.values-grid {
+  grid-template-columns: 1fr;
+  gap: 1.75rem;
+}
+
+.objectif-container,
+.realisations-container,
+.founder-container {
+  grid-template-columns: 1fr;
+  gap: 1.75rem;
+}
+
+.objectif-visual,
+.realisations-visual {
+  order: -1;
+}
+
+.founder-content,
+.founder-visual {
+  grid-column: auto;
+  grid-row: auto;
+}
+
+.founder-photo-frame {
+  max-width: min(100%, 340px);
+  margin-inline: auto;
+}
+
+.skill-bars {
+  max-width: min(100%, 340px);
+  margin-inline: auto;
+}
+
+.skill-bar-item {
+  width: 100% !important;
+  margin-left: 0 !important;
+}
+
+.testimonials-grid {
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.contact-form-container {
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: clamp(2.5rem, 6vw, 4rem) clamp(1rem, 4vw, 5%) clamp(3rem, 8vw, 5rem);
+  clip-path: none;
+}
+
+.contact-form-left {
+  margin-left: 0;
+  text-align: center;
+}
+
+.contact-form-heading {
+  text-align: center;
+}
+
+.contact-form-heading .section-heading__title {
+  margin-inline: auto;
+}
+
+.contact-form-heading .section-heading__accent {
+  justify-content: center;
+}
+
+.contact-form-right {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 520px;
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+}
+
+.contact-cards-container {
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+  margin: 1.5rem auto 3rem;
+  padding-inline: clamp(1rem, 4vw, 5%);
+}
+
+.footer-grid {
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.intro-agency-decor,
+.intro-agency-square {
+  display: none;
+}
+
+.hero-social-sidebar {
+  top: 16px;
+  right: 16px;
+  gap: 0.5rem;
+}
+
+.hero-social-icon {
+  width: 34px;
+  height: 34px;
+}
+
+/* Section spacing — mobile */
+.intro-agency-section,
+.services-section,
+.values-section,
+.objectif-section,
+.founder-section,
+.realisations-section,
+.testimonials-section,
+.stats-section {
+  padding-inline: clamp(1rem, 4vw, 5%);
+}
+
+/* --- Topbar mobile & tablette --- */
+@media (max-width: 1023px) {
+  .topbar__info {
+    gap: clamp(0.65rem, 3vw, 1.25rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .topbar {
+    padding: 0.5rem 0.65rem;
+  }
+
+  .topbar__info {
+    flex-direction: column;
+    gap: 0.35rem;
+    align-items: center;
+  }
+
+  .topbar__link {
+    white-space: normal;
+    text-align: center;
+    font-size: 0.72rem;
+  }
+}
+
+/* --- 480px+ --- */
+@media (min-width: 480px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.75rem;
+  }
+
+  .hero-title-box {
+    padding: 0.75rem 1.5rem;
+  }
+
+  .hero-subtitle-box {
+    padding: 0.65rem 1.25rem;
+  }
+
+  .btn-djomatech {
+    min-width: 200px;
+  }
+}
+
+/* --- 768px+ (tablettes) --- */
+@media (min-width: 768px) {
+  .service-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .values-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact-cards-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.75rem;
+    margin: 2rem auto 3.5rem;
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+  }
+
+  .stats-grid {
+    padding: 2rem;
+  }
+
+  .stats-card:nth-child(2)::after {
+    display: block;
+  }
+
+  .objectif-visual img,
+  .realisations-visual img {
+    max-height: 320px;
+    margin-inline: auto;
+  }
+
+  .hero-section {
+    min-height: clamp(480px, 75vh, 720px);
+  }
+
+  .hero-social-sidebar {
+    top: 28px;
+    right: 28px;
+    gap: 0.65rem;
+  }
+
+  .hero-social-icon {
+    width: 38px;
+    height: 38px;
+  }
+}
+
+/* --- 1024px+ (desktop) --- */
+@media (min-width: 1024px) {
+  .values-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+
+  .objectif-container,
+  .realisations-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .objectif-visual,
+  .realisations-visual {
+    order: 0;
+  }
+
+  .founder-container {
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 400px);
+    gap: clamp(1.5rem, 3vw, 3rem);
+  }
+
+  .testimonials-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .contact-form-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    padding: 4rem 5% 7rem;
+  }
+
+  .contact-form-left {
+    margin-left: 2rem;
+    text-align: left;
+  }
+
+  .contact-form-heading {
+    text-align: left;
+  }
+
+  .contact-form-heading .section-heading__title {
+    margin-inline: 0;
+  }
+
+  .contact-form-heading .section-heading__accent {
+    justify-content: flex-start;
+  }
+
+  .contact-form-right {
+    margin-right: auto;
+    margin-left: 0;
+    max-width: 500px;
+    padding: 3.5rem;
+  }
+
+  .contact-cards-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: -4rem auto 3.5rem;
+    padding-inline: 5%;
+  }
+
+  html {
+    scroll-padding-top: 96px;
+  }
+
+  section[id] {
+    scroll-margin-top: 96px;
+  }
+}
+
+/* --- 1200px+ --- */
+@media (min-width: 1200px) {
+  .footer-grid {
+    grid-template-columns: 1.2fr 1fr 1fr 1fr;
+    gap: 2.5rem;
+  }
+
+  .intro-agency-decor,
+  .intro-agency-square {
+    display: block;
+  }
+}
+
+/* --- 1440px+ (grands écrans) --- */
+@media (min-width: 1440px) {
+  .service-grid,
+  .values-grid,
+  .objectif-container,
+  .realisations-container,
+  .founder-container,
+  .testimonials-grid,
+  .contact-cards-container,
+  .footer-grid,
+  .stats-grid {
+    max-width: 1280px;
+  }
+
+  .hero-section__content {
+    max-width: 1100px;
+  }
+}
+
+/* --- 320px très petits écrans --- */
+@media (max-width: 359px) {
+  .navbar__drawer {
+    width: 100%;
+  }
+
+  .slide-title {
+    font-size: 1.25rem;
+  }
+
+  .slide-subtitle {
+    font-size: 0.68rem;
+  }
+
+  .section-heading__title {
+    padding: 0.6rem 1rem;
+    font-size: 1.2rem;
+  }
+
+  .contact-form-input,
+  .contact-form-textarea {
+    font-size: 16px;
+  }
+}
