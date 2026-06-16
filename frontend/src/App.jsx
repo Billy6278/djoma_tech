@@ -9,9 +9,16 @@ const slides = [
   {
     image: '/hero-acceil.png',
     title: 'DJOMA TECH',
-    subtitle: 'INNOVATION AU SERVICE DE VOTRE RÉUSSITE',
+    subtitle: "INNOVER AUJOURDHUI, REUSSIR DEMAIN AVEC DJOMA-TECH",
     btnText: 'DJOMA TECH',
     position: 'center right',
+  },
+  {
+    video: '/Muhammad_Usman.mp4',
+    poster: '/hero-acceil.png',
+    title: 'DJOMA TECH',
+    subtitle: 'INNOVATION AU SERVICE DE VOTRE RÉUSSITE',
+    btnText: 'DJOMA TECH',
   },
   {
     image: '/hero2.jpg',
@@ -32,85 +39,71 @@ const slides = [
 const services = [
   {
     image: '/service-web-app.png',
-    title: 'Développement de Sites Web & Applications Mobiles',
+    title: 'Développement Web & Applications Mobiles',
     description:
-      'Transformez vos idées en solutions numériques performantes avec Djoma-Tech. Nous concevons des sites web modernes, rapides et sécurisés ainsi que des applications mobiles innovantes qui offrent une expérience utilisateur exceptionnelle. Notre objectif est de vous aider à attirer plus de clients, renforcer votre crédibilité et accélérer votre croissance grâce à des technologies de pointe.',
-    tagline: 'Votre vision. Notre expertise. Un impact durable.',
+      'Nous concevons des sites web modernes, sécurisés et performants ainsi que des applications mobiles innovantes permettant aux entreprises de renforcer leur présence digitale et d\'accélérer leur croissance.',
+    tagline: '',
   },
   {
     image: '/service-design.png',
     title: 'Design Graphique & Infographie',
     description:
-      "Votre image de marque mérite l'excellence. Chez Djoma-Tech, nous créons des identités visuelles uniques, des supports marketing professionnels et des designs percutants qui captivent instantanément votre audience. Chaque création est pensée pour valoriser votre entreprise, renforcer votre notoriété et vous démarquer de la concurrence.",
-    tagline: 'Nous transformons vos idées en visuels qui inspirent, convainquent et marquent les esprits.',
+      'Nous créons des identités visuelles fortes, des supports de communication professionnels et des designs attractifs qui valorisent les marques et captivent leur audience.',
+    tagline: '',
   },
   {
     image: '/service-marketing.png',
     title: 'Marketing Digital & Développement de Marque',
     description:
-      "Dominez votre marché grâce à des stratégies digitales intelligentes et orientées résultats. Nous vous aidons à accroître votre visibilité, développer votre communauté, générer des prospects qualifiés et augmenter vos ventes. De la gestion des réseaux sociaux à la publicité en ligne, en passant par la monétisation et la certification professionnelle, nous mettons en place des solutions efficaces pour faire rayonner votre marque.",
-    tagline: "Plus de visibilité. Plus d'engagement. Plus de résultats.",
+      'Nous aidons les entreprises à accroître leur visibilité, attirer de nouveaux clients et développer leur notoriété grâce à des stratégies digitales performantes et orientées résultats.',
+    tagline: '',
   },
   {
     image: '/service-maintenance.png',
     title: 'Maintenance Informatique & Solutions Logicielles',
     description:
-      'Assurez la performance et la sécurité de votre infrastructure informatique avec nos services professionnels. Nous proposons la maintenance des systèmes, l\'installation de logiciels certifiés, la protection des données, l\'optimisation des performances et l\'assistance technique. Nos solutions fiables garantissent la continuité de vos activités et la productivité de votre entreprise.',
-    tagline: 'La technologie doit être un moteur de croissance, jamais un frein.',
+      'Nous assurons la sécurité, la stabilité et la performance des systèmes informatiques grâce à des services de maintenance, d\'assistance technique et d\'optimisation des infrastructures numériques.',
+    tagline: '',
   },
   {
     image: '/service-formation.png',
     title: 'Formation Professionnelle',
     description:
-      'Préparez-vous aux métiers de demain avec nos formations pratiques et certifiantes. Nous accompagnons étudiants, professionnels, entrepreneurs et entreprises dans le développement de compétences stratégiques en informatique, marketing digital, bureautique, développement web, design graphique, intelligence artificielle et entrepreneuriat. Nos programmes sont conçus pour répondre aux exigences du marché et favoriser une insertion professionnelle rapide.',
-    tagline: 'Apprenez aujourd\'hui. Innovez demain. Réussissez pour toujours.',
+      'Nous proposons des formations pratiques et certifiantes dans les domaines du numérique afin de développer les compétences des étudiants, professionnels et entrepreneurs.',
+    tagline: '',
   },
 ]
 
-const whyChooseUs = [
-  'Expertise et innovation technologique',
-  'Solutions personnalisées et évolutives',
-  'Accompagnement professionnel de bout en bout',
-  'Qualité, sécurité et performance garanties',
-  'Une équipe passionnée par votre réussite',
-]
+const whyChooseUs = "Djoma-Tech se distingue par son expertise technologique, son sens de l'innovation et son accompagnement personnalisé. Nous proposons des solutions fiables, évolutives et adaptées aux besoins spécifiques de chaque client tout en garantissant qualité, sécurité et performance."
 
 const values = [
   {
     image: '/value-accessibilite.png',
     title: 'Accessibilité',
     description:
-      'Nous croyons que la technologie doit être accessible à tous. C\'est pourquoi nous développons des solutions numériques inclusives, intuitives et adaptées à tous les profils d\'utilisateurs. Notre mission est de réduire les barrières technologiques et de permettre à chacun de bénéficier des opportunités offertes par le digital.',
-    tagline: 'Rendre le numérique simple, accessible et utile pour tous.',
+      'Nous développons des solutions numériques simples, inclusives et accessibles afin de permettre à chacun de profiter pleinement des opportunités offertes par la technologie.',
+    tagline: '',
   },
   {
     image: '/value-disponibilite.png',
     title: 'Disponibilité',
     description:
-      'Dans un monde connecté en permanence, votre activité ne s\'arrête jamais, et nous non plus. Notre équipe reste disponible, réactive et engagée pour vous accompagner à chaque étape de votre croissance digitale. Nous assurons un suivi continu et un support efficace afin de garantir votre sérénité et la performance de vos projets.',
-    tagline: 'Votre succès est notre priorité, 24 heures sur 24, 7 jours sur 7.',
+      'Notre équipe reste à l\'écoute et accompagne ses clients avec réactivité et professionnalisme à chaque étape de leurs projets.',
+    tagline: '',
   },
   {
     image: '/value-creativite.png',
     title: 'Créativité',
     description:
-      'L\'innovation naît de la créativité. Chez Djoma-Tech, nous repoussons constamment les limites du possible pour imaginer des solutions uniques, modernes et adaptées à vos objectifs. Chaque projet est une nouvelle opportunité de créer, d\'innover et de faire la différence.',
-    tagline: 'Transformer les idées audacieuses en réalisations exceptionnelles.',
+      'Nous mettons l\'innovation et la créativité au cœur de notre démarche afin de concevoir des solutions uniques qui répondent efficacement aux défis de nos clients.',
+    tagline: '',
   },
 ]
 
-const objectifGoals = [
-  'Accélérer la transformation digitale des entreprises.',
-  'Créer des expériences numériques mémorables et performantes.',
-  'Favoriser l\'innovation et la compétitivité.',
-  'Générer de la valeur durable pour nos clients.',
-  'Devenir un partenaire stratégique de confiance.',
-]
-
 const skillBars = [
-  { label: 'DÉVELOPPEMENT DE SITE WEB', percent: 70 },
+  { label: 'DÉVELOPPEMENT DE SITE WEB', percent: 75 },
   { label: 'INFOGRAPHIE & DESIGN', percent: 60 },
-  { label: 'MARKETING DIGITAL', percent: 75 },
+  { label: 'MARKETING DIGITAL', percent: 70 },
 ]
 
 
@@ -221,7 +214,7 @@ function App() {
     {
       quote: "Un accompagnement exceptionnel, une équipe très réactive et à l’écoute. Les résultats en termes de trafic et d’engagement clients sont déjà visibles.",
       author: "Nanssabory Keita",
-      role: "Biologiste, Laboratoire",
+      role: "Biologiste, Laborantin, Pharmacien",
       initials: "NK"
     },
   ]
@@ -234,16 +227,34 @@ function App() {
       <main className="hero-section">
         {/* Full-width Background Slider */}
         <div className="hero-background-slider">
-          {slides.map((slide, index) => (
-            <div
-              key={index}
-              className={`hero-bg-slide-img${index === 0 ? ' hero-bg-slide-img--banner' : ''} ${index === currentSlide ? 'active' : ''}`}
-              style={{
-                backgroundImage: `url(${slide.image})`,
-                backgroundPosition: slide.position || 'center',
-              }}
-            />
-          ))}
+          {slides.map((slide, index) => {
+            const isActive = index === currentSlide;
+            if (slide.video) {
+              return (
+                <video
+                  key={index}
+                  className={`hero-bg-slide-img ${isActive ? 'active' : ''}`}
+                  src={slide.video}
+                  poster={slide.poster}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                />
+              );
+            }
+            return (
+              <div
+                key={index}
+                className={`hero-bg-slide-img${index === 0 ? ' hero-bg-slide-img--banner' : ''} ${isActive ? 'active' : ''}`}
+                style={{
+                  backgroundImage: `url(${slide.image})`,
+                  backgroundPosition: slide.position || 'center',
+                }}
+                data-banner={index === 0 ? 'true' : undefined}
+              />
+            );
+          })}
           <div className="hero-overlay" />
           <div className="hero-overlay-gradient" aria-hidden="true" />
         </div>
@@ -275,12 +286,12 @@ function App() {
         <div className="hero-social-sidebar">
           <a href="https://www.facebook.com/share/1EJAC7SQaS/" className="hero-social-icon facebook" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
             <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
-              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
             </svg>
           </a>
           <a href="https://www.linkedin.com/company/djoma-tech/" className="hero-social-icon linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
-              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
             </svg>
           </a>
         </div>
@@ -321,13 +332,7 @@ function App() {
             </div>
           </div>
           <p className="intro-agency-text">
-            Chez Djoma-Tech, nous ne nous contentons pas de suivre l&apos;évolution du numérique, nous la créons. Notre mission est d&apos;accompagner les entreprises, les entrepreneurs et les organisations dans leur transformation digitale grâce à des solutions innovantes, performantes et adaptées aux défis d&apos;aujourd&apos;hui.
-          </p>
-          <p className="intro-agency-text">
-            Nous combinons expertise technologique, créativité et stratégie pour concevoir des expériences digitales qui génèrent de la croissance, renforcent votre image de marque et accélèrent votre développement. Que ce soit pour la création de sites web, le développement d&apos;applications, le marketing digital, le design graphique ou les solutions technologiques sur mesure, nous transformons vos idées en résultats concrets.
-          </p>
-          <p className="intro-agency-text">
-            Avec Djoma-Tech, vous bénéficiez d&apos;un partenaire engagé, ambitieux et tourné vers l&apos;avenir. Chaque projet est une opportunité de repousser les limites, d&apos;innover et de bâtir ensemble un avenir numérique plus performant.
+            Djoma-Tech est une entreprise spécialisée dans les solutions numériques et la transformation digitale. Nous accompagnons entreprises, entrepreneurs et organisations grâce à des services innovants en développement web, applications mobiles, marketing digital, design graphique et solutions technologiques sur mesure. Notre mission est de transformer les idées en résultats concrets et durables.
           </p>
           <p className="intro-agency-tagline">
             Djoma-Tech — Construisons aujourd&apos;hui les solutions numériques de demain.
@@ -364,7 +369,7 @@ function App() {
               </div>
               <h3 className="service-card__title">{service.title}</h3>
               <p className="service-card__desc">{service.description}</p>
-              <p className="service-card__tagline">{service.tagline}</p>
+              {service.tagline && <p className="service-card__tagline">{service.tagline}</p>}
             </article>
           ))}
         </div>
@@ -378,11 +383,9 @@ function App() {
               <span className="section-heading__accent-line" />
             </div>
           </div>
-          <ul className="services-why__list">
-            {whyChooseUs.map((item) => (
-              <li key={item}>{item}</li>
-            ))}
-          </ul>
+          <p className="services-why__desc" style={{ fontSize: '1.05rem', lineHeight: '1.8', color: '#475569', maxWidth: '750px', margin: '0 auto 2rem', textAlign: 'center' }}>
+            {whyChooseUs}
+          </p>
           <div className="services-why__closing">
             <strong>Djoma-Tech</strong>
             <p>L&apos;innovation numérique qui transforme vos ambitions en succès.</p>
@@ -434,7 +437,7 @@ function App() {
               </div>
               <h3 className="value-card__title">{value.title}</h3>
               <p className="value-card__desc">{value.description}</p>
-              <p className="value-card__tagline">{value.tagline}</p>
+              {value.tagline && <p className="value-card__tagline">{value.tagline}</p>}
             </article>
           ))}
         </div>
@@ -461,19 +464,8 @@ function App() {
 
           <div className="objectif-content">
             <p>
-              Notre ambition est de devenir un acteur de référence dans la transformation digitale en Afrique et au-delà. Nous avons pour mission d&apos;accompagner les entreprises, les entrepreneurs et les organisations dans leur évolution numérique en leur proposant des solutions innovantes, performantes et durables.
+              Notre ambition est de devenir une référence de la transformation digitale en Afrique et à l&apos;international. Nous contribuons à la croissance de nos clients en développant des solutions innovantes qui renforcent leur compétitivité et créent une valeur durable.
             </p>
-            <p>
-              Nous ne nous contentons pas de créer des sites web, des applications ou des stratégies digitales ; nous construisons des opportunités de croissance, renforçons la compétitivité de nos clients et contribuons à leur succès à long terme.
-            </p>
-            <p className="objectif-content__lead">
-              À travers l&apos;innovation, l&apos;excellence et l&apos;accompagnement personnalisé, nous visons à :
-            </p>
-            <ul className="objectif-goals">
-              {objectifGoals.map((goal) => (
-                <li key={goal}>{goal}</li>
-              ))}
-            </ul>
             <div className="objectif-closing">
               <strong>Djoma-Tech</strong>
               <p>Innover aujourd&apos;hui, transformer demain, réussir ensemble.</p>
@@ -505,13 +497,7 @@ function App() {
 
           <div className="realisations-content">
             <p>
-              Chez <strong className="founder-highlight--brand">Djoma-Tech</strong>, chaque projet est une démonstration de notre expertise, de notre créativité et de notre engagement envers l&apos;excellence. À travers nos solutions web, applications mobiles, designs graphiques et stratégies digitales, nous aidons nos clients à atteindre leurs objectifs et à accélérer leur croissance.
-            </p>
-            <p>
-              Nos réalisations témoignent de notre capacité à transformer les idées en résultats concrets, en proposant des solutions innovantes, performantes et adaptées aux besoins de chaque client.
-            </p>
-            <p className="realisations-tagline">
-              <strong>Djoma-Tech : des projets réussis, des clients satisfaits et une vision tournée vers l&apos;avenir.</strong>
+              Nos réalisations reflètent notre savoir-faire, notre créativité et notre engagement envers l&apos;excellence. Chaque projet témoigne de notre capacité à transformer les besoins de nos clients en solutions performantes et en résultats mesurables.
             </p>
             <a className="btn-djomatech realisations-cta" href="#contact">
               Démarrer un projet &raquo;
@@ -535,23 +521,8 @@ function App() {
 
         <div className="founder-container">
           <div className="founder-content">
-            <p className="founder-greeting">
-              Bonjour et bienvenue chez <strong className="founder-highlight--brand">Djoma-Tech</strong>,
-            </p>
             <p>
-              Je suis <strong className="founder-highlight--name">Billy Nankouman Keita</strong>, fondateur et Directeur Général de <strong className="founder-highlight--brand">Djoma-Tech</strong>, une entreprise spécialisée dans les solutions numériques, l&apos;innovation technologique et la transformation digitale.
-            </p>
-            <p>
-              Mon parcours est celui d&apos;un jeune entrepreneur animé par une passion profonde pour la technologie et l&apos;innovation. Dès mes débuts, j&apos;ai compris que le numérique représentait bien plus qu&apos;un simple outil : c&apos;est un puissant levier capable de transformer les entreprises, créer des opportunités et contribuer au développement de notre société.
-            </p>
-            <p>
-              Comme tout entrepreneur, j&apos;ai dû faire face à de nombreux défis. Les contraintes financières, le manque de ressources et les obstacles du quotidien auraient pu freiner mes ambitions. Pourtant, chaque difficulté est devenue une source d&apos;apprentissage, chaque échec une leçon, et chaque défi une occasion de grandir.
-            </p>
-            <p>
-              Porté par une vision claire et une détermination sans faille, j&apos;ai consacré des années à développer mes compétences dans les domaines du développement web, des technologies numériques, du design, du marketing digital et de l&apos;innovation. Cette passion a donné naissance à <strong className="founder-highlight--brand">Djoma-Tech</strong>, avec une mission simple mais ambitieuse : accompagner les entreprises, les entrepreneurs et les organisations dans leur réussite numérique.
-            </p>
-            <p>
-              Aujourd&apos;hui, Djoma-Tech est bien plus qu&apos;une entreprise technologique. C&apos;est une équipe engagée qui travaille chaque jour pour créer des solutions innovantes, performantes et adaptées aux besoins réels de nos clients. Nous croyons que chaque projet mérite l&apos;excellence, chaque client mérite l&apos;écoute et chaque ambition mérite les meilleures opportunités de réussite.
+              <strong className="founder-highlight--name">Billy Nankouman Keita</strong>, Fondateur et Directeur Général de <strong className="founder-highlight--brand">Djoma-Tech</strong>, porte la vision d&apos;une Afrique connectée, innovante et compétitive. Grâce à sa passion pour la technologie et son esprit entrepreneurial, il a créé Djoma-Tech pour accompagner les entreprises dans leur transformation numérique et contribuer au développement du continent à travers l&apos;innovation.
             </p>
             <p>
               Notre vision est de devenir une référence dans l&apos;écosystème numérique africain en offrant des services de qualité internationale, tout en contribuant à la formation, à l&apos;innovation et à l&apos;émergence d&apos;une nouvelle génération d&apos;acteurs du digital.
@@ -566,27 +537,27 @@ function App() {
                 &laquo; L&apos;innovation n&apos;est pas seulement une technologie, c&apos;est la capacité de transformer les idées en impact durable. &raquo;
               </blockquote>
             </div>
+            <div className="skill-bars">
+              {skillBars.map((skill) => (
+                <div
+                  key={skill.label}
+                  className="skill-bar-item"
+                >
+                  <div className="skill-bar-header">
+                    <span className="skill-bar-label">{skill.label}</span>
+                    <span className="skill-bar-percent">{skill.percent}%</span>
+                  </div>
+                  <div className="skill-bar-track">
+                    <div className="skill-bar-fill" style={{ width: `${skill.percent}%` }} />
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
 
           <div className="founder-visual">
             <div className="founder-photo-frame">
               <img src="/fondateur-billy.png" alt="Billy Nankouman Keita, Fondateur de Djoma-Tech" loading="lazy" />
-            </div>
-            <div className="skill-bars">
-              {skillBars.map((skill, index) => (
-                <div
-                  key={skill.label}
-                  className="skill-bar-item"
-                  style={{ marginLeft: `${index * 48}px` }}
-                >
-                  <span className="skill-bar-label">{skill.label}</span>
-                  <div className="skill-bar-track">
-                    <div className="skill-bar-fill" style={{ width: `${skill.percent}%` }}>
-                      <span className="skill-bar-percent">{skill.percent}%</span>
-                    </div>
-                  </div>
-                </div>
-              ))}
             </div>
           </div>
         </div>
@@ -761,10 +732,10 @@ function App() {
                 <rect x="43" y="24" width="42" height="62" rx="4" fill="#1e293b" />
                 {/* Speaker slit */}
                 <line x1="58" x2="70" y1="20" y2="20" stroke="#ffffff" strokeWidth="2" strokeLinecap="round" />
-                
+
                 {/* Handset drawing on screen */}
                 <path d="M50 42 C50 42 66 42 66 54 C66 60 58 70 50 68" stroke="#ffaa00" strokeWidth="4" strokeLinecap="round" fill="none" />
-                
+
                 {/* Home button */}
                 <circle cx="64" cy="94" r="3" fill="#ffffff" />
               </svg>
@@ -886,7 +857,7 @@ function App() {
         aria-label="Discuter sur WhatsApp"
       >
         <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor">
-          <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.73-1.45L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.966a9.782 9.782 0 0 0-6.978-2.879c-5.443 0-9.866 4.372-9.87 9.802 0 1.76.476 3.472 1.378 5.02l-.24 1.134zM16.5 13.5c-.2-.1-.9-.4-1.0-.5-.1-.1-.2-.2-.3-.1-.1.1-.4.5-.5.6-.1.1-.2.1-.4 0-.4-.2-1.4-.5-1.9-1-.4-.3-.7-.7-.8-.9 0-.2.1-.3.2-.4.1-.1.2-.2.3-.3.1-.1.1-.2.1-.3 0-.1-.1-.3-.2-.5-.1-.2-.2-.5-.3-.6-.1-.2-.2-.2-.3-.2h-.3c-.2 0-.5.1-.7.3-.2.2-.8.8-.8 1.9s.8 2.2.9 2.4c.1.2 1.6 2.5 3.9 3.5.5.2 1 .4 1.4.5.6.2 1.1.2 1.5.1.5-.1 1-.4 1.2-.8.2-.4.2-.8.1-1-.1-.1-.3-.2-.5-.3z"/>
+          <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.73-1.45L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.966a9.782 9.782 0 0 0-6.978-2.879c-5.443 0-9.866 4.372-9.87 9.802 0 1.76.476 3.472 1.378 5.02l-.24 1.134zM16.5 13.5c-.2-.1-.9-.4-1.0-.5-.1-.1-.2-.2-.3-.1-.1.1-.4.5-.5.6-.1.1-.2.1-.4 0-.4-.2-1.4-.5-1.9-1-.4-.3-.7-.7-.8-.9 0-.2.1-.3.2-.4.1-.1.2-.2.3-.3.1-.1.1-.2.1-.3 0-.1-.1-.3-.2-.5-.1-.2-.2-.5-.3-.6-.1-.2-.2-.2-.3-.2h-.3c-.2 0-.5.1-.7.3-.2.2-.8.8-.8 1.9s.8 2.2.9 2.4c.1.2 1.6 2.5 3.9 3.5.5.2 1 .4 1.4.5.6.2 1.1.2 1.5.1.5-.1 1-.4 1.2-.8.2-.4.2-.8.1-1-.1-.1-.3-.2-.5-.3z" />
         </svg>
         <span className="whatsapp-badge">1</span>
       </a>

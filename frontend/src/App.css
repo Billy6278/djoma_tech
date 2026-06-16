@@ -540,6 +540,7 @@ body.nav-open {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  object-fit: cover;
   opacity: 0;
   transform: scale(1.08);
   transition: opacity 1.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -611,16 +612,16 @@ body.nav-open {
 .hero-title-box {
   display: inline-block;
   background-color: var(--primary);
-  padding: 1.2rem 2.5rem;
+  padding: 0.9rem 2rem;
   max-width: 100%;
   box-shadow: 0 10px 30px rgba(13, 110, 253, 0.3);
 }
 
 .slide-title {
   font-family: var(--font-headings);
-  font-size: clamp(1.8rem, 4.5vw, 4.2rem);
+  font-size: clamp(1.5rem, 3vw, 2.6rem);
   font-weight: 900;
-  line-height: 1.1;
+  line-height: 1.15;
   color: #ffffff;
   margin: 0;
   text-transform: uppercase;
@@ -631,17 +632,17 @@ body.nav-open {
   display: inline-block;
   background-color: rgba(26, 26, 26, 0.85);
   backdrop-filter: blur(4px);
-  padding: 0.8rem 2rem;
+  padding: 0.6rem 1.6rem;
   max-width: 100%;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
 
 .slide-subtitle {
   font-family: var(--font-headings);
-  font-size: clamp(0.9rem, 2.2vw, 1.8rem);
+  font-size: clamp(0.8rem, 1.5vw, 1.25rem);
   font-weight: 700;
   color: #ffffff;
-  line-height: 1.3;
+  line-height: 1.35;
   margin: 0;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -1047,7 +1048,7 @@ body.nav-open {
    ========================================== */
 .intro-agency-section {
   position: relative;
-  padding: 3rem 5% 3.5rem;
+  padding: 1.75rem 5% 2rem;
   background: #ffffff;
   overflow: hidden;
   text-align: center;
@@ -1150,7 +1151,7 @@ body.nav-open {
    6. SERVICES SECTION
    ========================================== */
 .services-section {
-  padding: 3rem 5% 3.5rem;
+  padding: 1.75rem 5% 2rem;
   position: relative;
   background: #ffffff;
 }
@@ -1295,7 +1296,7 @@ body.nav-open {
    7. STATS SECTION
    ========================================== */
 .stats-section {
-  padding: 2.5rem 5%;
+  padding: 1.5rem 5%;
   background: linear-gradient(180deg, transparent, rgba(13, 110, 253, 0.02) 50%, transparent);
 }
 
@@ -1353,7 +1354,7 @@ body.nav-open {
    8. VALUES SECTION
    ========================================== */
 .values-section {
-  padding: 3rem 5% 2.5rem;
+  padding: 1.75rem 5% 1.75rem;
   position: relative;
   background-color: #ffffff;
   background-image:
@@ -1457,7 +1458,7 @@ body.nav-open {
    9. OBJECTIF SECTION
    ========================================== */
 .objectif-section {
-  padding: 2.5rem 5% 3.5rem;
+  padding: 1.75rem 5% 2rem;
   background: #ffffff;
 }
 
@@ -1548,7 +1549,7 @@ body.nav-open {
    10. FOUNDER SECTION
    ========================================== */
 .founder-section {
-  padding: 3rem 5% 3.5rem;
+  padding: 1.75rem 5% 2rem;
   background: #f4f6f8;
 }
 
@@ -1656,64 +1657,64 @@ body.nav-open {
 }
 
 .skill-bars {
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   display: flex;
   flex-direction: column;
-  gap: 1.75rem;
+  gap: 1.5rem;
   width: 100%;
-  max-width: 400px;
-  padding: 0 0.25rem;
+  max-width: 100%;
+  padding: 0;
 }
 
 .skill-bar-item {
-  width: calc(100% - 96px);
+  width: 100%;
   max-width: 100%;
 }
 
+.skill-bar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
 .skill-bar-label {
-  display: block;
   font-family: var(--font-headings);
-  font-size: 0.78rem;
+  font-size: 0.82rem;
   font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.05em;
   color: #0f172a;
-  margin-bottom: 0.45rem;
+}
+
+.skill-bar-percent {
+  font-family: var(--font-headings);
+  font-size: 0.88rem;
+  font-weight: 800;
+  color: var(--primary);
 }
 
 .skill-bar-track {
   width: 100%;
-  height: 28px;
+  height: 8px;
   background: #eef2f7;
   overflow: hidden;
   border-radius: 999px;
-  border: 1px solid rgba(148, 163, 184, 0.15);
+  border: 1px solid rgba(148, 163, 184, 0.1);
 }
 
 .skill-bar-fill {
   height: 100%;
   background: linear-gradient(90deg, var(--primary) 0%, #3b82f6 100%);
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  min-width: 48px;
   transition: width 1s ease;
   border-radius: 999px;
-}
-
-.skill-bar-percent {
-  padding-right: 0.65rem;
-  font-size: 0.82rem;
-  font-weight: 700;
-  color: #ffffff;
-  line-height: 1;
 }
 
 /* ==========================================
    11. REALISATIONS SECTION
    ========================================== */
 .realisations-section {
-  padding: 3rem 5% 3.5rem;
+  padding: 1.75rem 5% 2rem;
   background: #f8fafc;
   scroll-margin-top: 100px;
 }
@@ -1764,7 +1765,7 @@ body.nav-open {
    12. TESTIMONIALS SECTION
    ========================================== */
 .testimonials-section {
-  padding: 3rem 5% 4rem;
+  padding: 1.75rem 5% 2rem;
   position: relative;
   background: linear-gradient(180deg, #ffffff 0%, #f8fafc 50%, #ffffff 100%);
 }
@@ -1936,7 +1937,7 @@ body.nav-open {
 
 .contact-form-container {
   background: linear-gradient(135deg, #00122e 0%, #002d62 100%);
-  padding: 4rem 5% 7rem;
+  padding: 2.5rem 5% 4rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
